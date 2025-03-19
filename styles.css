@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Ensure the container covers the full viewport and centers its content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    color: #FFFFFF; /* White for headings */
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #d999ce; /* Orange button for contrast */
+    color: white;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #FFFFF0; /* Lighter color on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+h2 {
+    color: #000000; /* Black for results */
+}
+
+.scoreboard {
+    margin: 20px 0;
+}
+
+/* Style the box that holds your content */
+.box {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
